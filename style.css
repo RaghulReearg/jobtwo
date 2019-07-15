@@ -1,0 +1,151 @@
+.gradient {
+  background: #ff416c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ff4b2b,
+    #ff416c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ff4b2b,
+    #ff416c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+body {
+  background: #f7ced8;
+}
+.container {
+  margin: 0 15%;
+  box-shadow: 0 8px 11px rgba(0, 0, 0, 0.3);
+}
+.right {
+  justify-content: center;
+  align-items: center;
+
+  margin: 20% 20px;
+  padding: 50px;
+  color: white;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 30px;
+}
+input:focus {
+  outline: none;
+  background: #ff4b2b0c;
+  border-radius: 30px;
+}
+.myrow {
+  margin-top: 6%;
+}
+.btn:hover {
+  cursor: pointer;
+  transition: all 2s ease-in;
+  background: #ff416c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ff4b2b,
+    #ff416c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+}
+.username {
+  line-height: 30px;
+
+  /* margin-top: 10px; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.pass {
+  line-height: 30px;
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+
+  padding: 70px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 60px;
+  padding: 0;
+  margin: 0;
+  color: #ff416c;
+}
+.logotext {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10%;
+}
+.forgot {
+  margin-left: 8%;
+  font-size: 10px;
+}
+.leftside {
+  background: white;
+}
+label {
+  color: gray;
+  margin-left: 5%;
+  font-size: 10px;
+}
+.forgot:hover {
+  cursor: pointer;
+  color: #ff4b2b;
+}
+  .btn {
+    margin-top: 1.5rem;
+    margin-left: 20px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    width: 60%;
+    padding: 10px;
+    background: #ff416c; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #f5afa2,
+      #ff416c
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #ff4b2b,
+      #ff416c
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+.headingforlogin {
+  margin-left: -20px;
+  color: gray;
+  font-size: 12px;
+}
+h2 {
+  font-weight: 400;
+}
+.content {
+  font-weight: 200;
+}
+@media (max-width: 460px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .btn {
+    width: 100%;
+  }
+}
